@@ -5,5 +5,5 @@ import { nodePolyfills } from 'vite-plugin-node-polyfills';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), nodePolyfills()],
-  base: 'https://bobo25695.github.io/TonFN/',
+  base: '/TonFN/', // 设置为你的仓库名
 });
